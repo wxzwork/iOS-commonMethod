@@ -15,6 +15,9 @@
 		812EEC361E28B3CB00D854AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812EEC341E28B3CB00D854AC /* LaunchScreen.storyboard */; };
 		812EEC411E28B3CB00D854AC /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 812EEC401E28B3CB00D854AC /* ______Tests.m */; };
 		812EEC4C1E28B3CB00D854AC /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 812EEC4B1E28B3CB00D854AC /* ______UITests.m */; };
+		812EEC5B1E28B4C300D854AC /* NSString+CategoryMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 812EEC5A1E28B4C300D854AC /* NSString+CategoryMethods.m */; };
+		812EEC5E1E28B8E400D854AC /* UIColor+ColorCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 812EEC5D1E28B8E400D854AC /* UIColor+ColorCategory.m */; };
+		812EEC611E28BA2100D854AC /* UITextField+LimitTextLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 812EEC601E28BA2100D854AC /* UITextField+LimitTextLength.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		812EEC471E28B3CB00D854AC /* 常用方法集合UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "常用方法集合UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		812EEC4B1E28B3CB00D854AC /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		812EEC4D1E28B3CB00D854AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		812EEC591E28B4C300D854AC /* NSString+CategoryMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CategoryMethods.h"; sourceTree = "<group>"; };
+		812EEC5A1E28B4C300D854AC /* NSString+CategoryMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CategoryMethods.m"; sourceTree = "<group>"; };
+		812EEC5C1E28B8E400D854AC /* UIColor+ColorCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorCategory.h"; sourceTree = "<group>"; };
+		812EEC5D1E28B8E400D854AC /* UIColor+ColorCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorCategory.m"; sourceTree = "<group>"; };
+		812EEC5F1E28BA2100D854AC /* UITextField+LimitTextLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LimitTextLength.h"; sourceTree = "<group>"; };
+		812EEC601E28BA2100D854AC /* UITextField+LimitTextLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LimitTextLength.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				812EEC2A1E28B3CB00D854AC /* AppDelegate.m */,
 				812EEC2C1E28B3CB00D854AC /* ViewController.h */,
 				812EEC2D1E28B3CB00D854AC /* ViewController.m */,
+				812EEC591E28B4C300D854AC /* NSString+CategoryMethods.h */,
+				812EEC5A1E28B4C300D854AC /* NSString+CategoryMethods.m */,
+				812EEC5C1E28B8E400D854AC /* UIColor+ColorCategory.h */,
+				812EEC5D1E28B8E400D854AC /* UIColor+ColorCategory.m */,
+				812EEC5F1E28BA2100D854AC /* UITextField+LimitTextLength.h */,
+				812EEC601E28BA2100D854AC /* UITextField+LimitTextLength.m */,
 				812EEC2F1E28B3CB00D854AC /* Main.storyboard */,
 				812EEC321E28B3CB00D854AC /* Assets.xcassets */,
 				812EEC341E28B3CB00D854AC /* LaunchScreen.storyboard */,
@@ -207,6 +222,7 @@
 				TargetAttributes = {
 					812EEC221E28B3CB00D854AC = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BVZZ9S8989;
 						ProvisioningStyle = Automatic;
 					};
 					812EEC3B1E28B3CB00D854AC = {
@@ -275,6 +291,9 @@
 			files = (
 				812EEC2E1E28B3CB00D854AC /* ViewController.m in Sources */,
 				812EEC2B1E28B3CB00D854AC /* AppDelegate.m in Sources */,
+				812EEC611E28BA2100D854AC /* UITextField+LimitTextLength.m in Sources */,
+				812EEC5E1E28B8E400D854AC /* UIColor+ColorCategory.m in Sources */,
+				812EEC5B1E28B4C300D854AC /* NSString+CategoryMethods.m in Sources */,
 				812EEC281E28B3CB00D854AC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,7 +443,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BVZZ9S8989;
 				INFOPLIST_FILE = "常用方法集合/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +456,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BVZZ9S8989;
 				INFOPLIST_FILE = "常用方法集合/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
